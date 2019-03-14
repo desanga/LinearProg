@@ -73,10 +73,22 @@ MM= [Mi,Mi,Mi,Mi,Mi,Mi,Mi,Mi,Mi,Mi,Mi,Mi,Mi,Mi,Mi,Mi];
  airload.Constraints.stability1 = stability1; 
  airload.Constraints.stability2 = stability2;
  
+  %% container sizing and compartment sizing 
+ 
+ 
+ 
+ 
+ 
+ %%
+ 
+ 
+ 
+ 
+ 
  options = optimoptions(airload);
  options.MaxNodes= 500000;
  
- lll
+
 
  [sol,fval] = solve(airload, 'Options', options);
 %%
