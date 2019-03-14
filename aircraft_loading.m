@@ -76,7 +76,7 @@ MM= [Mi,Mi,Mi,Mi,Mi,Mi,Mi,Mi,Mi,Mi,Mi,Mi,Mi,Mi,Mi,Mi];
  options = optimoptions(airload);
  options.MaxNodes= 500000;
  
- lll
+
 
  [sol,fval] = solve(airload, 'Options', options);
 %%
